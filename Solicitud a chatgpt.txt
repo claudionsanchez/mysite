@@ -1,0 +1,49 @@
+hacer una pagina WEB: en Python, Flask, windows.
+1. objeto: venta de productos de elergia solar.
+2. colocar imajen de fondo en pagina principal.
+3. colocar 5 botones sobre lado superior izquierdo segun detalle; A) boton "Descripcion energias alternativas y Solar", B) Boton Detalle de funcionamiento del sistema"" (archivo .pdf). C) Boton folleto Panel"" (archivo .pdf). D) Boton folleto Inversor" (archivo .pdf). E) Boton Contacto (ventava nueva, centrada, con datos de la empresa).
+
+python -m venv env
+env\Scripts\activate
+pip install flask
+pip install flask-wtf
+flask run
+python -m flask run
+
+Enviar directorio a Git
+1.)
+git init
+git config --global user.name "Tu nombre"
+git config --global user.email tu@ejemplo.com
+2)
+Crear archivo .txt que contenga lo que no deceo transferir (ejemplo)
+.gitignore
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
+3)
+git status
+git add --all .
+git commit -m "Mi aplicación Django Girls, primer commit"
+4) crear el repositorio en la pagina de GitHub
+git remote add origin https://github.com/<your-github-username>/my-first-blog.git
+git push -u origin master
+
+Actualizar el repositorio
+1. ir al directorio del repositorio
+2. git status
+3. git commit -m "descrip de modificacion"
+4. git pull
+5. git push
+
+En Pythonanywere
+1) En consola 
+mkvirtualenv --python=/usr/bin/python3.10 myenv
+mkvirtualenv --python=/usr/bin/python3.6 my-virtualenv
+workon myenv (trabajar en entorno virtual)
+
+
